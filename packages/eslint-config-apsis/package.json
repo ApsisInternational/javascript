@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-airbnb",
+  "name": "eslint-config-apsis",
   "version": "0.0.8",
-  "description": "Airbnb's ESLint config, following our styleguide",
+  "description": "Apsis' ESLint config, following our styleguide. Forked from AirBnB's javascript style guide.",
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/airbnb/javascript"
+    "url": "https://github.com/apsis/javascript"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "airbnb",
+    "apsis",
     "javascript",
     "styleguide"
   ],
@@ -29,8 +29,6 @@
     "babel-eslint": "4.0.10",
     "babel-tape-runner": "1.2.0",
     "eslint": "1.1.0",
-    "eslint-plugin-react": "3.2.3",
-    "react": "0.13.3",
     "tape": "4.2.0"
   }
 }
