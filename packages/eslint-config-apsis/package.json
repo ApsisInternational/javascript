@@ -19,12 +19,12 @@
     "javascript",
     "styleguide"
   ],
-  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
+  "author": "Hampus Persson, hampus.persson@apsis.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/javascript/issues"
+    "url": "https://github.com/apsis/javascript/issues"
   },
-  "homepage": "https://github.com/airbnb/javascript",
+  "homepage": "https://github.com/apsis/javascript",
   "devDependencies": {
     "babel-eslint": "4.0.10",
     "babel-tape-runner": "1.2.0",
