@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
-    "test": "./node_modules/.bin/babel-tape-runner ./test/test-*.js",
-    "prepublish": "npm test"
+    "test": "./node_modules/.bin/babel-tape-runner ./test/test-*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apsis/javascript"
+    "url": "https://github.com/ApsisInternational/javascript"
   },
   "keywords": [
     "eslint",
@@ -23,10 +22,11 @@
   "author": "Hampus Persson, hampus.persson@apsis.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/apsis/javascript/issues"
+    "url": "https://github.com/ApsisInternational/javascript/issues"
   },
-  "homepage": "https://github.com/apsis/javascript",
+  "homepage": "https://github.com/ApsisInternational/javascript",
   "devDependencies": {
+
     "babel-eslint": "4.0.10",
     "babel-tape-runner": "1.2.0",
     "eslint": "1.1.0",
