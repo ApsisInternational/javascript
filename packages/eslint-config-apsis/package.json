@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-apsis",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Apsis' ESLint config, following our styleguide. Forked from AirBnB's javascript style guide.",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/ApsisInternational/javascript",
   "devDependencies": {
-
     "babel-eslint": "4.0.10",
     "babel-tape-runner": "1.2.0",
     "eslint": "1.1.0",
