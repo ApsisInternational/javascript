@@ -1,6 +1,7 @@
-const base = require('./base');
-
-// clone this so we aren't mutating a module
-const eslintrc = JSON.parse(JSON.stringify(base));
-
-module.exports = eslintrc;
+module.exports = {
+  'extends': [
+      'eslint-config-apsis/es5',
+      'eslint-config-apsis/rules/es6',
+  ],
+  'rules': {}
+};
