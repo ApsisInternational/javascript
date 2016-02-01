@@ -5,7 +5,7 @@ This package provides Apsis' .eslintrc as an extensible shared config.
 ## Usage
 
 1. `npm install --save-dev eslint-config-apsis babel-eslint `
-2. add `"extends": "apsis/base"` to your .eslintrc
+2. add `"extends": "apsis"` to your .eslintrc
 
 See [Apsis's Javascript styleguide](https://github.com/ApsisInternational/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
