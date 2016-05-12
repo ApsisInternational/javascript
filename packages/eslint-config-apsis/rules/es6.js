@@ -4,11 +4,12 @@ module.exports = {
   },
   'parserOptions': {
     'ecmaVersion': 6,
-    'sourceType': 'module'
-  },
-  'ecmaFeatures': {
-    'objectLiteralDuplicateProperties': false,
-    'jsx': true
+    'sourceType': 'module',
+    'ecmaFeatures': {
+        'experimentalObjectRestSpread': true,
+        'objectLiteralDuplicateProperties': false,
+        'jsx': true,
+    },
   },
   'rules': {
     // require parens in arrow function arguments
